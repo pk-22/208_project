@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Balsamiq Sans', cursive;
+    text-transform: capitalize; */
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    margin: 8px 15px;
+    font-size: 18px;
+    padding: 3px 10px;
+}
+.links:hover{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
