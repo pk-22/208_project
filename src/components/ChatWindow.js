@@ -92,16 +92,16 @@ class ChatWindow extends React.Component {
             <div>
                 {DisplayMsgArr}
 
-                <form>
+                <form className="send-msg">
                     <div>
                         <input
-                            type="text"
+                            type="text" className="send-input"
                             value={this.state.msgToDeliver}
                             onChange={(e) => this.msgChangeHandler(e)}
                         />
                     </div>
                     <button
-                        type="button"
+                        type="button" className="send-btn"
                         onClick={() =>
                             this.sendHandler(this.state.msgToDeliver)
                         }
